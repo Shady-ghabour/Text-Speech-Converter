@@ -20,4 +20,4 @@ This project allows users to convert written text into speech. The application f
   The JavaScript file that handles the application logic, including fetching available voices, updating the UI, and converting text to speech.
 
 ## Link
-[https://shady-ghabour.github.io/text-converter/](https://shady-ghabour.github.io/text-converter/)
+[https://shady-ghabour.github.io/Text-Speech-Converter/](https://shady-ghabour.github.io/Text-Speech-Converter/)
