@@ -1,0 +1,93 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #004D40, #64B5F6);
+    flex-direction: column;
+}
+
+.container h1{
+    margin-top: -50px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #fff;
+}
+
+.container p{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.container p span{
+    padding: 4px;
+    color: #6a2f14;
+    box-shadow: 3px 3px 11px #26150e;
+}
+.container .con{
+    color: #ad613d;
+    box-shadow: 3px 3px 11px #26150e;
+}
+
+.container textarea{
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    width: 600px;
+    height: 250px;
+    resize: none;
+    background-color: #ad613d;
+    border-radius: 10px;
+    box-shadow: 3px 3px 11px #26150e;
+    outline: 0;
+    margin-bottom: 30px;
+    border: 0;
+}
+
+.container textarea::placeholder{
+    color: white;
+}
+
+.control{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.control select{
+    padding: 12px;
+    width: 450px;
+    outline: 0;
+    border-radius: 10px;
+    background-color: #54a4d8;
+    box-shadow: 3px 3px 11px #26150e;
+    border: 0;
+    cursor: pointer;
+}
+
+.control button{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 11px #26150e;
+    background-color: #ad613d;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+.control .btn img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
